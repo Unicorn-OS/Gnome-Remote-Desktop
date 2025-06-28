@@ -1,7 +1,7 @@
 - name: Remote Desktop
   hosts: node_1 #, localhost
   roles:
-    - dev/Gnome-Desktop-Sharing
+    - dev/ansible-role-Gnome-Desktop-Sharing
 
 #- name: Thin Client
 #  hosts: node_1
