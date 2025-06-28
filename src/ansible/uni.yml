@@ -1,10 +1,8 @@
-#- name: Remote Desktop
-#  hosts: node_1 #, localhost
-#  vars:
-#    Destkop_Sharing: true
-#    Remote_Login: false
-#  roles:
-#    - dev/ansible-role-Gnome-Remote-Desktop
+- name: Remote Desktop
+  hosts: node_1 #, localhost
+  roles:
+    - dev/ansible-role-Gnome-Remote-Desktop
+    - dev/ansible-role-Gnome-Remote-Desktop-plaintext-Keyring
 
 - name: Thin Client
   hosts: node_2
