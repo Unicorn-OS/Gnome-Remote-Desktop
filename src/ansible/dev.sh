@@ -7,3 +7,4 @@ git clone git@github.com:Unicorn-OS/ansible-role-Gnome-Remote-Desktop-plaintext-
 git clone git@github.com:Unicorn-OS/ansible-role-Gnome-Remote-Desktop-Connection.git
 git clone git@github.com:Unicorn-OS/ansible-role-Remmina-RDP.git
 git clone git@github.com:Unicorn-OS/ansible-role-Remmina-RDP-Connection.git
+git clone git@github.com:Unicorn-OS/ansible-role-Gnome-Connections.git

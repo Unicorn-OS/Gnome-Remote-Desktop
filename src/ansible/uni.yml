@@ -10,3 +10,4 @@
     rdp_client: Remmina
   roles:
     - dev/ansible-role-Gnome-Remote-Desktop-Connection
+    - dev/ansible-role-Gnome-Connections
