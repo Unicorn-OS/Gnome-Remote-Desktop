@@ -6,7 +6,9 @@
   roles:
     - dev/ansible-role-Gnome-Remote-Desktop
 
-#- name: Thin Client
-#  hosts: node_1
-#  roles:
-#    - dev/Gnome-Remote-Desktop-Connection
+- name: Thin Client
+  hosts: node_1
+  vars:
+    rdp_client: Remmina
+  roles:
+    - dev/Gnome-Remote-Desktop-Connection
