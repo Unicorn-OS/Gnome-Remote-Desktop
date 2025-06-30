@@ -1,13 +1,13 @@
-- name: Remote Desktop
-  hosts: node_1 #, localhost
-  roles:
-    - dev/ansible-role-Gnome-Remote-Desktop
-    - dev/ansible-role-Gnome-Remote-Desktop-plaintext-Keyring
+#- name: Remote Desktop
+#  hosts: node_1 #, localhost
+#  roles:
+#    - dev/ansible-role-Gnome-Remote-Desktop
+#    - dev/ansible-role-Gnome-Remote-Desktop-plaintext-Keyring
 
 - name: Thin Client
   hosts: node_2
   vars:
     rdp_client: Remmina
   roles:
-    - dev/ansible-role-Gnome-Remote-Desktop-Connection
+#    - dev/ansible-role-Gnome-Remote-Desktop-Connection
     - dev/ansible-role-Gnome-Connections
